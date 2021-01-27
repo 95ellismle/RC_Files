@@ -36,3 +36,4 @@ alias RST="shutdown -r now"
 
 alias PWD_ARCHER="sudo cat /etc/pwd/archer/pwd.key"
 alias PWD_HELFORD="sudo cat /etc/pwd/helford/pwd.key"
+alias PWD_UCL="sudo cat /etc/pwd/ucl/pwd.key"
