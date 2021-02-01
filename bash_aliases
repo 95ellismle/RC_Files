@@ -8,7 +8,8 @@ KPATH="ucapell@kathleen.rc.ucl.ac.uk"
 
 #alias helford="ssh mellis@helford.phys.ucl.ac.uk"
 function archer() {
-    sshpass -p "`sudo cat /etc/pwd/archer/pwd.key`" ssh -X mellis@login.archer.ac.uk
+    #sshpass -p "`sudo cat /etc/pwd/archer/pwd.key`" ssh -X mellis@login.archer.ac.uk
+    sshpass -p "`sudo cat /etc/pwd/archer/pwd.key`" ssh -X mellis@login.archer2.ac.uk
 }
 function helford() {
     sshpass -p "`sudo cat /etc/pwd/helford/pwd.key`" ssh mellis@helford.phys.ucl.ac.uk
